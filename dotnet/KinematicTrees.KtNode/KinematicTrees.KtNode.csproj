@@ -8,6 +8,6 @@
     <RootNamespace>KinematicTrees.KtNode</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Google.FlatBuffers" Version="24.12.23" />
+    <PackageReference Include="KinematicTrees.KtMessages" Version="0.1.0" />
   </ItemGroup>
 </Project>

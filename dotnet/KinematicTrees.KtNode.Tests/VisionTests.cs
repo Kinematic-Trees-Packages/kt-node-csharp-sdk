@@ -1,9 +1,16 @@
 using Xunit;
+using kt.messages.vision_sample;
 
 namespace KinematicTrees.KtNode.Tests;
 
 public sealed class VisionTests
 {
+    [Fact]
+    public void ImageSampleBindingComesFromKtMessagesPackage()
+    {
+        Assert.Equal("KinematicTrees.KtMessages", typeof(ImageSample).Assembly.GetName().Name);
+    }
+
     [Fact]
     public void ImageFrameRoundTripsThroughImageSample()
     {

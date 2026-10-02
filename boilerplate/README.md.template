@@ -1,6 +1,6 @@
 # {{KTM_CREATE_PROJECT_NAME}}
 
-Editable Kinematic Trees `csharp` project created from a KTM-installed kt-node boilerplate package.
+Editable Kinematic Trees `csharp` project created from a KTM-installed libkt boilerplate package.
 
 KTM copied this project out of the immutable package store so you can edit it normally. Work in this directory, not in the installed boilerplate package.
 
@@ -30,7 +30,7 @@ src/{{KTM_CREATE_MODULE_NAME}}/Robot.cs
 
 ## Dependency model
 
-The generated `package.ktm.json` declares a dependency on `kinematic-trees/kt-node@{{KTM_CREATE_KT_NODE_VERSION}}`.
+The generated `package.ktm.json` declares a dependency on `kinematic-trees/libkt@{{KTM_CREATE_KT_NODE_VERSION}}`.
 
 You normally do **not** need to export `CPATH`, `LIBRARY_PATH`, `LD_LIBRARY_PATH`, `PKG_CONFIG_PATH`, or `CMAKE_PREFIX_PATH` yourself. KTM supplies those when you use `ktm dev`, `ktm build`, and `ktm test`.
 

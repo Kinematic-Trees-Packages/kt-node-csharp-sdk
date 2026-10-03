@@ -10,6 +10,8 @@ This project was generated from the Kinematic Trees kt-node C# SDK boilerplate. 
 - `{{KTM_CREATE_MODULE_NAME}}.sln` — generated solution.
 - `scripts/build.sh` — builds Release output into `$KTM_BUILD_OUTPUT/compiled/dotnet/{{KTM_CREATE_MODULE_NAME}}` and writes a cleaned source snapshot to `$KTM_BUILD_OUTPUT/source`.
 - `ktm-pack.json` — editable package-owned pack mode definition.
+- `package.ktm.json` — the only package/process contract.
+- `runtime.json` — sibling deployment-instance configuration referencing `./package.ktm.json`.
 
 ## Using the SDK
 
